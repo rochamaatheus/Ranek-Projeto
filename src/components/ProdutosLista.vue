@@ -15,17 +15,30 @@
 
 <script>
 import { api } from '@/services.js';
+import { serialize } from '@/helpers.js';
 
 export default {
   name: 'ProdutosLista',
   data() {
     return {
       produtos: null,
+      produtosPagina: 9,
     };
+  },
+  computed: {
+    url() {
+      const query = serialize(this.$route.query);
+      return `/produto?_limit=${this.produtosPagina}${query}`;
+    },
+  },
+  watch: {
+    url() {
+      this.getProdutos();
+    },
   },
   methods: {
     getProdutos() {
-      api.get('/produto').then((r) => (this.produtos = r.data));
+      api.get(this.url).then((r) => (this.produtos = r.data));
     },
   },
   created() {
