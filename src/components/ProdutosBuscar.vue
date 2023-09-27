@@ -1,6 +1,14 @@
 <template>
   <form>
-    <input type="text" name="busca" id="busca" v-model="busca" />
+    <label for="busca" aria-label="Buscar produto">
+      <input
+        type="text"
+        name="busca"
+        id="busca"
+        v-model="busca"
+        placeholder="O que vai comprar?"
+      />
+    </label>
     <input
       type="submit"
       id="lupa"
