@@ -1,0 +1,11 @@
+<template>
+  <div>BUSCAR</div>
+</template>
+
+<script>
+export default {
+  name: 'ProdutosBuscar',
+};
+</script>
+
+<style></style>
