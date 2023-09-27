@@ -1,6 +1,8 @@
 <template>
   <section>
-    <h1>Compre ou Venda</h1>
+    <h1>&#x1F44D; Compre ou Venda &#x1F44E;</h1>
+    <ProdutosBuscar />
+    <ProdutosLista />
   </section>
 </template>
 
@@ -17,4 +19,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+h1 {
+  color: #87f;
+  font-size: 2rem;
+  margin-top: 40px;
+  text-align: center;
+}
+</style>
