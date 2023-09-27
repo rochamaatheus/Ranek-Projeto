@@ -15,7 +15,7 @@
       </div>
     </div>
     <div v-else-if="produtos && produtos.length === 0">
-      <p>Busca sem resultados.</p>
+      <p class="sem-resultados">Busca sem resultados.</p>
     </div>
   </section>
 </template>
@@ -54,4 +54,45 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.produtos-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 30px;
+}
+.produto {
+  box-shadow: 0 4px 8px rgba(30, 60, 90, 0.1);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.produto:hover {
+  box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
+  transform: scale(1.1);
+  z-index: 1;
+}
+.produto img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.titulo {
+  margin-bottom: 10px;
+}
+.preco {
+  opacity: 0.5;
+  color: #e80;
+  font-weight: bold;
+}
+.produto:hover .preco {
+  opacity: 0.7;
+}
+.sem-resultados {
+  text-align: center;
+}
+</style>
