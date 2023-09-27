@@ -1,0 +1,44 @@
+{
+  "usuario": [
+    {
+      "id": "matheus@gmail.com",
+      "email": "matheus@gmail.com",
+      "nome": "Matheus",
+      "senha": "123",
+      "rua": "Rua Virando a Esquina",
+      "cep": "12345678",
+      "numero": "368",
+      "estado": "SC",
+      "cidade": "Joinville"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "3999",
+      "vendido": "false",
+      "descricao": "Notebook de última geração",
+      "fotos": []
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2499",
+      "vendido": "false",
+      "descricao": "Smartphone de última geração",
+      "fotos": []
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2999",
+      "vendido": "false",
+      "descricao": "Tablet de última geração",
+      "fotos": []
+    }
+  ]
+}
