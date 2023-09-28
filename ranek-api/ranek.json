@@ -80,7 +80,7 @@
       "id": "smartphoneAntigo",
       "nome": "Smartphone",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1999",
+      "preco": "1499",
       "vendido": "false",
       "descricao": "Smartphone antigo de 2020",
       "fotos": []
@@ -89,7 +89,7 @@
       "id": "tabletAntigo",
       "nome": "Tablet",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2499",
+      "preco": "1999",
       "vendido": "false",
       "descricao": "Tablet antigo de 2020",
       "fotos": []
@@ -98,7 +98,7 @@
       "id": "tabletAntigoUsado",
       "nome": "Tablet",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1999",
+      "preco": "1499",
       "vendido": "false",
       "descricao": "Tablet antigo de 2020 usado",
       "fotos": []
@@ -107,7 +107,7 @@
       "id": "smartphoneAntigoUsado",
       "nome": "Smartphone",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1499",
+      "preco": "999",
       "vendido": "false",
       "descricao": "Smartphone antigo de 2020 usado",
       "fotos": []
