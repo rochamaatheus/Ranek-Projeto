@@ -30,6 +30,7 @@ export default {
     return {
       produtos: null,
       produtosPagina: 9,
+      produtosTotal: 0,
     };
   },
   computed: {
@@ -45,7 +46,10 @@ export default {
   },
   methods: {
     getProdutos() {
-      api.get(this.url).then((r) => (this.produtos = r.data));
+      api.get(this.url).then((r) => {
+        this.produtosTotal = r.headers['x-total-count'];
+        this.produtos = r.data;
+      });
     },
   },
   created() {
