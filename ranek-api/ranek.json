@@ -17,7 +17,7 @@
       "id": "notebook",
       "nome": "Notebook",
       "usuario_id": "matheus@gmail.com",
-      "preco": "3999",
+      "preco": "999",
       "vendido": "false",
       "descricao": "Notebook de última geração",
       "fotos": []
@@ -26,7 +26,7 @@
       "id": "smartphone",
       "nome": "Smartphone",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2499",
+      "preco": "399",
       "vendido": "false",
       "descricao": "Smartphone de última geração",
       "fotos": []
@@ -35,90 +35,864 @@
       "id": "tablet",
       "nome": "Tablet",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2999",
+      "preco": "599",
       "vendido": "false",
       "descricao": "Tablet de última geração",
       "fotos": []
     },
     {
-      "id": "tabletUsado",
-      "nome": "Tablet",
+      "id": "monitor",
+      "nome": "Monitor",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2499",
+      "preco": "799",
       "vendido": "false",
-      "descricao": "Tablet usado de última geração",
+      "descricao": "Monitor LED de 24 polegadas",
       "fotos": []
     },
     {
-      "id": "smartphoneUsado",
-      "nome": "Smartphone",
+      "id": "teclado",
+      "nome": "Teclado",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1999",
+      "preco": "99",
       "vendido": "false",
-      "descricao": "Smartphone usado de última geração",
+      "descricao": "Teclado mecânico para jogos",
       "fotos": []
     },
     {
-      "id": "notebookUsado",
-      "nome": "Notebook",
+      "id": "mouse",
+      "nome": "Mouse",
       "usuario_id": "matheus@gmail.com",
-      "preco": "3499",
+      "preco": "49",
       "vendido": "false",
-      "descricao": "Notebook usado de última geração",
+      "descricao": "Mouse óptico sem fio",
       "fotos": []
     },
     {
-      "id": "notebookAntigo",
-      "nome": "Notebook",
+      "id": "headset",
+      "nome": "Headset",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2999",
+      "preco": "149",
       "vendido": "false",
-      "descricao": "Notebook antigo de 2020",
+      "descricao": "Headset gamer com som surround",
       "fotos": []
     },
     {
-      "id": "smartphoneAntigo",
-      "nome": "Smartphone",
+      "id": "câmera",
+      "nome": "Câmera",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1499",
+      "preco": "599",
       "vendido": "false",
-      "descricao": "Smartphone antigo de 2020",
+      "descricao": "Câmera digital de 20MP",
       "fotos": []
     },
     {
-      "id": "tabletAntigo",
-      "nome": "Tablet",
+      "id": "impressora",
+      "nome": "Impressora",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1999",
+      "preco": "299",
       "vendido": "false",
-      "descricao": "Tablet antigo de 2020",
+      "descricao": "Impressora a jato de tinta",
       "fotos": []
     },
     {
-      "id": "tabletAntigoUsado",
-      "nome": "Tablet",
+      "id": "rotaer",
+      "nome": "Roteador",
       "usuario_id": "matheus@gmail.com",
-      "preco": "1499",
+      "preco": "129",
       "vendido": "false",
-      "descricao": "Tablet antigo de 2020 usado",
+      "descricao": "Roteador Wi-Fi de alta velocidade",
       "fotos": []
     },
     {
-      "id": "smartphoneAntigoUsado",
-      "nome": "Smartphone",
+      "id": "guitarra",
+      "nome": "Guitarra",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Guitarra elétrica com amplificador",
+      "fotos": []
+    },
+    {
+      "id": "cadeira",
+      "nome": "Cadeira de Escritório",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Cadeira ergonômica com apoio para as costas",
+      "fotos": []
+    },
+    {
+      "id": "tv",
+      "nome": "TV 4K",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "799",
+      "vendido": "false",
+      "descricao": "TV 4K de 55 polegadas com Smart TV integrada",
+      "fotos": []
+    },
+    {
+      "id": "fogao",
+      "nome": "Fogão a Gás",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Fogão a gás com quatro bocas e forno elétrico",
+      "fotos": []
+    },
+    {
+      "id": "cafeteira",
+      "nome": "Cafeteira",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Cafeteira elétrica para até 12 xícaras",
+      "fotos": []
+    },
+    {
+      "id": "bicicleta",
+      "nome": "Bicicleta Mountain Bike",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Bicicleta de montanha com suspensão dianteira",
+      "fotos": []
+    },
+    {
+      "id": "máquina_lavar",
+      "nome": "Máquina de Lavar Roupa",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "699",
+      "vendido": "false",
+      "descricao": "Máquina de lavar roupa de carga frontal",
+      "fotos": []
+    },
+    {
+      "id": "microondas",
+      "nome": "Micro-ondas",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Micro-ondas de 20 litros com função grill",
+      "fotos": []
+    },
+    {
+      "id": "geladeira",
+      "nome": "Geladeira Frost Free",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "899",
+      "vendido": "false",
+      "descricao": "Geladeira Frost Free de 300 litros",
+      "fotos": []
+    },
+    {
+      "id": "mesa_escritorio",
+      "nome": "Mesa de Escritório",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Mesa de escritório em madeira com gavetas",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_escritorio",
+      "nome": "Cadeira de Escritório",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Cadeira de escritório ergonômica com encosto de cabeça",
+      "fotos": []
+    },
+    {
+      "id": "computador",
+      "nome": "Computador Desktop",
       "usuario_id": "matheus@gmail.com",
       "preco": "999",
       "vendido": "false",
-      "descricao": "Smartphone antigo de 2020 usado",
+      "descricao": "Computador desktop de alta performance",
       "fotos": []
     },
     {
-      "id": "notebookAntigoUsado",
-      "nome": "Notebook",
+      "id": "impressora_escritorio",
+      "nome": "Impressora para Escritório",
       "usuario_id": "matheus@gmail.com",
-      "preco": "2499",
+      "preco": "299",
       "vendido": "false",
-      "descricao": "Notebook antigo de 2020 usado",
+      "descricao": "Impressora a laser para uso em escritório",
+      "fotos": []
+    },
+    {
+      "id": "luminaria",
+      "nome": "Luminária de Mesa",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Luminária de mesa LED com ajuste de intensidade",
+      "fotos": []
+    },
+    {
+      "id": "armario_escritorio",
+      "nome": "Armário para Escritório",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Armário de escritório com prateleiras",
+      "fotos": []
+    },
+    {
+      "id": "calculadora",
+      "nome": "Calculadora Científica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Calculadora científica com funções avançadas",
+      "fotos": []
+    },
+    {
+      "id": "pasta_executiva",
+      "nome": "Pasta Executiva",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Pasta executiva de couro com compartimentos",
+      "fotos": []
+    },
+    {
+      "id": "caixa_som",
+      "nome": "Caixa de Som Bluetooth",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Caixa de som Bluetooth portátil",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_gamer",
+      "nome": "Cadeira Gamer",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Cadeira gamer ergonômica com suporte lombar",
+      "fotos": []
+    },
+    {
+      "id": "aspirador_po",
+      "nome": "Aspirador de Pó",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Aspirador de pó sem fio com filtro HEPA",
+      "fotos": []
+    },
+    {
+      "id": "bicicleta_electrica",
+      "nome": "Bicicleta Elétrica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Bicicleta elétrica com motor de 250W",
+      "fotos": []
+    },
+    {
+      "id": "liquidificador",
+      "nome": "Liquidificador",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "59",
+      "vendido": "false",
+      "descricao": "Liquidificador com jarra de vidro",
+      "fotos": []
+    },
+    {
+      "id": "grill",
+      "nome": "Grill Elétrico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "89",
+      "vendido": "false",
+      "descricao": "Grill elétrico com chapa antiaderente",
+      "fotos": []
+    },
+    {
+      "id": "ventilador",
+      "nome": "Ventilador de Teto",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Ventilador de teto com controle remoto",
+      "fotos": []
+    },
+    {
+      "id": "cafeteira_espresso",
+      "nome": "Cafeteira Espresso",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Cafeteira espresso com moedor integrado",
+      "fotos": []
+    },
+    {
+      "id": "ferro_passar",
+      "nome": "Ferro de Passar",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Ferro de passar a vapor com base antiaderente",
+      "fotos": []
+    },
+    {
+      "id": "panela_pressao",
+      "nome": "Panela de Pressão",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "69",
+      "vendido": "false",
+      "descricao": "Panela de pressão em aço inoxidável",
+      "fotos": []
+    },
+    {
+      "id": "caixa_ferramentas",
+      "nome": "Caixa de Ferramentas",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "129",
+      "vendido": "false",
+      "descricao": "Caixa de ferramentas com várias peças",
+      "fotos": []
+    },
+    {
+      "id": "microfone",
+      "nome": "Microfone Condensador",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Microfone condensador para gravações",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_praia",
+      "nome": "Cadeira de Praia",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Cadeira de praia dobrável com porta-copos",
+      "fotos": []
+    },
+    {
+      "id": "mala_viagem",
+      "nome": "Mala de Viagem",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "89",
+      "vendido": "false",
+      "descricao": "Mala de viagem com rodinhas e alça retrátil",
+      "fotos": []
+    },
+    {
+      "id": "cafeteira_capsulas",
+      "nome": "Cafeteira de Cápsulas",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "129",
+      "vendido": "false",
+      "descricao": "Cafeteira de cápsulas com opção de bebidas quentes",
+      "fotos": []
+    },
+    {
+      "id": "churrasqueira_eletrica",
+      "nome": "Churrasqueira Elétrica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Churrasqueira elétrica para uso interno",
+      "fotos": []
+    },
+    {
+      "id": "ferro_passar_vapor",
+      "nome": "Ferro de Passar a Vapor",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "59",
+      "vendido": "false",
+      "descricao": "Ferro de passar a vapor com controle de temperatura",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_piscina",
+      "nome": "Cadeira de Piscina",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Cadeira de piscina reclinável",
+      "fotos": []
+    },
+    {
+      "id": "ventilador_portatil",
+      "nome": "Ventilador Portátil",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Ventilador portátil recarregável",
+      "fotos": []
+    },
+    {
+      "id": "frigobar",
+      "nome": "Frigobar",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Frigobar com capacidade de 80 litros",
+      "fotos": []
+    },
+    {
+      "id": "radio_portatil",
+      "nome": "Rádio Portátil",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Rádio portátil AM/FM com entrada para cartão SD",
+      "fotos": []
+    },
+    {
+      "id": "espremedor_suco",
+      "nome": "Espremedor de Suco",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Espremedor de suco elétrico",
+      "fotos": []
+    },
+    {
+      "id": "forno_eletrico",
+      "nome": "Forno Elétrico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "129",
+      "vendido": "false",
+      "descricao": "Forno elétrico com capacidade de 30 litros",
+      "fotos": []
+    },
+    {
+      "id": "caixa_ferramentas_profissional",
+      "nome": "Caixa de Ferramentas Profissional",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Caixa de ferramentas profissional com 200 peças",
+      "fotos": []
+    },
+    {
+      "id": "abajur",
+      "nome": "Abajur",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "19",
+      "vendido": "false",
+      "descricao": "Abajur de mesa com cúpula de tecido",
+      "fotos": []
+    },
+    {
+      "id": "escova_dental_eletrica",
+      "nome": "Escova Dental Elétrica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Escova dental elétrica recarregável",
+      "fotos": []
+    },
+    {
+      "id": "aquecedor",
+      "nome": "Aquecedor Elétrico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Aquecedor elétrico portátil",
+      "fotos": []
+    },
+    {
+      "id": "carrinho_bebe",
+      "nome": "Carrinho de Bebê",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Carrinho de bebê com assento reclinável",
+      "fotos": []
+    },
+    {
+      "id": "escada_aluminio",
+      "nome": "Escada de Alumínio",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "69",
+      "vendido": "false",
+      "descricao": "Escada de alumínio dobrável com 4 degraus",
+      "fotos": []
+    },
+    {
+      "id": "banheira_bebe",
+      "nome": "Banheira para Bebê",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Banheira para bebê com suporte",
+      "fotos": []
+    },
+    {
+      "id": "cama_casal",
+      "nome": "Cama de Casal",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Cama de casal com estrado de madeira",
+      "fotos": []
+    },
+    {
+      "id": "liquidificador_industrial",
+      "nome": "Liquidificador Industrial",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Liquidificador industrial de alta capacidade",
+      "fotos": []
+    },
+    {
+      "id": "banqueta_bar",
+      "nome": "Banqueta para Bar",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Banqueta para bar com ajuste de altura",
+      "fotos": []
+    },
+    {
+      "id": "notebook_gamer",
+      "nome": "Notebook Gamer",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1499",
+      "vendido": "false",
+      "descricao": "Notebook gamer de alta performance",
+      "fotos": []
+    },
+    {
+      "id": "bicicleta_estatica",
+      "nome": "Bicicleta Estática",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "249",
+      "vendido": "false",
+      "descricao": "Bicicleta estática para exercícios em casa",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_balanco",
+      "nome": "Cadeira de Balanço",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "129",
+      "vendido": "false",
+      "descricao": "Cadeira de balanço com almofada",
+      "fotos": []
+    },
+    {
+      "id": "caixa_joias",
+      "nome": "Caixa de Joias",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "19",
+      "vendido": "false",
+      "descricao": "Caixa de joias em veludo",
+      "fotos": []
+    },
+    {
+      "id": "teclado_piano",
+      "nome": "Teclado de Piano",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "499",
+      "vendido": "false",
+      "descricao": "Teclado de piano digital com 88 teclas",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_crianca",
+      "nome": "Cadeira para Criança",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Cadeira infantil com cinto de segurança",
+      "fotos": []
+    },
+    {
+      "id": "aparelho_sonar",
+      "nome": "Aparelho de Sonar",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Aparelho de sonar para pescaria",
+      "fotos": []
+    },
+    {
+      "id": "skate",
+      "nome": "Skate",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Skate completo para manobras",
+      "fotos": []
+    },
+    {
+      "id": "maquina_costura",
+      "nome": "Máquina de Costura",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Máquina de costura elétrica",
+      "fotos": []
+    },
+    {
+      "id": "batedeira",
+      "nome": "Batedeira",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "69",
+      "vendido": "false",
+      "descricao": "Batedeira elétrica com tigela",
+      "fotos": []
+    },
+    {
+      "id": "patins",
+      "nome": "Patins",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "59",
+      "vendido": "false",
+      "descricao": "Patins ajustável para adultos",
+      "fotos": []
+    },
+    {
+      "id": "guitarra_acustica",
+      "nome": "Guitarra Acústica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Guitarra acústica com tampo de madeira sólida",
+      "fotos": []
+    },
+    {
+      "id": "kit_ferramentas",
+      "nome": "Kit de Ferramentas",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Kit de ferramentas com diversas peças",
+      "fotos": []
+    },
+    {
+      "id": "cooler",
+      "nome": "Cooler",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Cooler térmico para bebidas",
+      "fotos": []
+    },
+    {
+      "id": "escrivaninha",
+      "nome": "Escrivaninha",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Escrivaninha em MDF com gavetas",
+      "fotos": []
+    },
+    {
+      "id": "microfone_karaoke",
+      "nome": "Microfone para Karaokê",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Microfone para karaokê com efeitos de voz",
+      "fotos": []
+    },
+    {
+      "id": "carrinho_mao",
+      "nome": "Carrinho de Mão",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Carrinho de mão resistente com pneus infláveis",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_praia_inclinavel",
+      "nome": "Cadeira de Praia Inclinável",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Cadeira de praia reclinável com porta-copos",
+      "fotos": []
+    },
+    {
+      "id": "cafeteira_capsulas",
+      "nome": "Cafeteira de Cápsulas",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "149",
+      "vendido": "false",
+      "descricao": "Cafeteira de cápsulas com opção de bebidas quentes",
+      "fotos": []
+    },
+    {
+      "id": "churrasqueira_eletrica",
+      "nome": "Churrasqueira Elétrica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Churrasqueira elétrica para uso interno",
+      "fotos": []
+    },
+    {
+      "id": "ferro_passar_vapor",
+      "nome": "Ferro de Passar a Vapor",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "59",
+      "vendido": "false",
+      "descricao": "Ferro de passar a vapor com controle de temperatura",
+      "fotos": []
+    },
+    {
+      "id": "cadeira_piscina",
+      "nome": "Cadeira de Piscina",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Cadeira de piscina reclinável",
+      "fotos": []
+    },
+    {
+      "id": "ventilador_portatil",
+      "nome": "Ventilador Portátil",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Ventilador portátil recarregável",
+      "fotos": []
+    },
+    {
+      "id": "frigobar",
+      "nome": "Frigobar",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Frigobar com capacidade de 80 litros",
+      "fotos": []
+    },
+    {
+      "id": "radio_portatil",
+      "nome": "Rádio Portátil",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Rádio portátil AM/FM com entrada para cartão SD",
+      "fotos": []
+    },
+    {
+      "id": "espremedor_suco",
+      "nome": "Espremedor de Suco",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "39",
+      "vendido": "false",
+      "descricao": "Espremedor de suco elétrico",
+      "fotos": []
+    },
+    {
+      "id": "forno_eletrico",
+      "nome": "Forno Elétrico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "129",
+      "vendido": "false",
+      "descricao": "Forno elétrico com capacidade de 30 litros",
+      "fotos": []
+    },
+    {
+      "id": "caixa_ferramentas_profissional",
+      "nome": "Caixa de Ferramentas Profissional",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "299",
+      "vendido": "false",
+      "descricao": "Caixa de ferramentas profissional com 200 peças",
+      "fotos": []
+    },
+    {
+      "id": "abajur",
+      "nome": "Abajur",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "19",
+      "vendido": "false",
+      "descricao": "Abajur de mesa com cúpula de tecido",
+      "fotos": []
+    },
+    {
+      "id": "escova_dental_eletrica",
+      "nome": "Escova Dental Elétrica",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "29",
+      "vendido": "false",
+      "descricao": "Escova dental elétrica recarregável",
+      "fotos": []
+    },
+    {
+      "id": "aquecedor",
+      "nome": "Aquecedor Elétrico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "79",
+      "vendido": "false",
+      "descricao": "Aquecedor elétrico portátil",
+      "fotos": []
+    },
+    {
+      "id": "carrinho_bebe",
+      "nome": "Carrinho de Bebê",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Carrinho de bebê com assento reclinável",
+      "fotos": []
+    },
+    {
+      "id": "escada_aluminio",
+      "nome": "Escada de Alumínio",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "69",
+      "vendido": "false",
+      "descricao": "Escada de alumínio dobrável com 4 degraus",
+      "fotos": []
+    },
+    {
+      "id": "banheira_bebe",
+      "nome": "Banheira para Bebê",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "49",
+      "vendido": "false",
+      "descricao": "Banheira para bebê com suporte",
+      "fotos": []
+    },
+    {
+      "id": "cama_casal",
+      "nome": "Cama de Casal",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "399",
+      "vendido": "false",
+      "descricao": "Cama de casal com estrado de madeira",
+      "fotos": []
+    },
+    {
+      "id": "caixa_som_portatil",
+      "nome": "Caixa de Som Portátil",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "99",
+      "vendido": "false",
+      "descricao": "Caixa de som portátil Bluetooth",
+      "fotos": []
+    },
+    {
+      "id": "carrinho_compras",
+      "nome": "Carrinho de Compras",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "59",
+      "vendido": "false",
+      "descricao": "Carrinho de compras dobrável",
+      "fotos": []
+    },
+    {
+      "id": "teclado_numerico",
+      "nome": "Teclado Numérico",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "19",
+      "vendido": "false",
+      "descricao": "Teclado numérico USB",
       "fotos": []
     }
   ]
