@@ -39,6 +39,87 @@
       "vendido": "false",
       "descricao": "Tablet de última geração",
       "fotos": []
+    },
+    {
+      "id": "tabletUsado",
+      "nome": "Tablet",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2499",
+      "vendido": "false",
+      "descricao": "Tablet usado de última geração",
+      "fotos": []
+    },
+    {
+      "id": "smartphoneUsado",
+      "nome": "Smartphone",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Smartphone usado de última geração",
+      "fotos": []
+    },
+    {
+      "id": "notebookUsado",
+      "nome": "Notebook",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "3499",
+      "vendido": "false",
+      "descricao": "Notebook usado de última geração",
+      "fotos": []
+    },
+    {
+      "id": "notebookAntigo",
+      "nome": "Notebook",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2999",
+      "vendido": "false",
+      "descricao": "Notebook antigo de 2020",
+      "fotos": []
+    },
+    {
+      "id": "smartphoneAntigo",
+      "nome": "Smartphone",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Smartphone antigo de 2020",
+      "fotos": []
+    },
+    {
+      "id": "tabletAntigo",
+      "nome": "Tablet",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2499",
+      "vendido": "false",
+      "descricao": "Tablet antigo de 2020",
+      "fotos": []
+    },
+    {
+      "id": "tabletAntigoUsado",
+      "nome": "Tablet",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Tablet antigo de 2020 usado",
+      "fotos": []
+    },
+    {
+      "id": "smartphoneAntigoUsado",
+      "nome": "Smartphone",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "1499",
+      "vendido": "false",
+      "descricao": "Smartphone antigo de 2020 usado",
+      "fotos": []
+    },
+    {
+      "id": "notebookAntigoUsado",
+      "nome": "Notebook",
+      "usuario_id": "matheus@gmail.com",
+      "preco": "2499",
+      "vendido": "false",
+      "descricao": "Notebook antigo de 2020 usado",
+      "fotos": []
     }
   ]
 }
