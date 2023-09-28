@@ -13,6 +13,10 @@
           <p>{{ produto.descricao }}</p>
         </router-link>
       </div>
+      <PaginasProdutos
+        :produtosTotal="produtosTotal"
+        :produtosPagina="produtosPagina"
+      />
     </div>
     <div v-else-if="produtos && produtos.length === 0">
       <p class="sem-resultados">Busca sem resultados.</p>
@@ -21,11 +25,15 @@
 </template>
 
 <script>
+import PaginasProdutos from '@/components/PaginasProdutos.vue';
 import { api } from '@/services.js';
 import { serialize } from '@/helpers.js';
 
 export default {
   name: 'ProdutosLista',
+  components: {
+    PaginasProdutos,
+  },
   data() {
     return {
       produtos: null,
