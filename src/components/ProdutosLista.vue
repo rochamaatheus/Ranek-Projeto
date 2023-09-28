@@ -55,7 +55,7 @@ export default {
   methods: {
     getProdutos() {
       api.get(this.url).then((r) => {
-        this.produtosTotal = r.headers['x-total-count'];
+        this.produtosTotal = Number(r.headers['x-total-count']);
         this.produtos = r.data;
       });
     },
