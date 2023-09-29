@@ -8,6 +8,16 @@ Vue.config.productionTip = false;
 
 Vue.component('PageLoading', PageLoading);
 
+Vue.filter('numeroPreco', (valor) => {
+  valor = Number(valor);
+  if (!isNaN(valor)) {
+    return valor.toLocaleString('en-Us', {
+      style: 'currency',
+      currency: 'USD',
+    });
+  } else return '';
+});
+
 new Vue({
   router,
   store,
