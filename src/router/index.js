@@ -15,6 +15,7 @@ const routes = [
     path: '/produto/:id',
     name: 'produto',
     component: Produto,
+    props: true,
   },
 ];
 
