@@ -1,26 +1,29 @@
 <template>
   <section class="produtos-container">
-    <div v-if="produtos && produtos.length" class="produtos">
-      <div v-for="produto in produtos" :key="produto.id" class="produto">
-        <router-link to="/">
-          <img
-            v-if="produto.fotos[0]"
-            :src="produto.fotos[0].src"
-            alt="produto.fotos[0].titulo"
-          />
-          <p class="preco">{{ produto.preco }}</p>
-          <h2 class="titulo">{{ produto.nome }}</h2>
-          <p>{{ produto.descricao }}</p>
-        </router-link>
+    <transition>
+      <div v-if="produtos && produtos.length" class="produtos">
+        <div v-for="produto in produtos" :key="produto.id" class="produto">
+          <router-link to="/">
+            <img
+              v-if="produto.fotos[0]"
+              :src="produto.fotos[0].src"
+              alt="produto.fotos[0].titulo"
+            />
+            <p class="preco">{{ produto.preco }}</p>
+            <h2 class="titulo">{{ produto.nome }}</h2>
+            <p>{{ produto.descricao }}</p>
+          </router-link>
+        </div>
+        <PaginasProdutos
+          :produtosTotal="produtosTotal"
+          :produtosPagina="produtosPagina"
+        />
       </div>
-      <PaginasProdutos
-        :produtosTotal="produtosTotal"
-        :produtosPagina="produtosPagina"
-      />
-    </div>
-    <div v-else-if="produtos && produtos.length === 0">
-      <p class="sem-resultados">Busca sem resultados.</p>
-    </div>
+      <div v-else-if="produtos && produtos.length === 0">
+        <p class="sem-resultados">Busca sem resultados.</p>
+      </div>
+      <PageLoading v-else />
+    </transition>
   </section>
 </template>
 
@@ -54,10 +57,13 @@ export default {
   },
   methods: {
     getProdutos() {
-      api.get(this.url).then((r) => {
-        this.produtosTotal = Number(r.headers['x-total-count']);
-        this.produtos = r.data;
-      });
+      this.produtos = null;
+      setTimeout(() => {
+        api.get(this.url).then((r) => {
+          this.produtosTotal = Number(r.headers['x-total-count']);
+          this.produtos = r.data;
+        });
+      }, 1500);
     },
   },
   created() {
