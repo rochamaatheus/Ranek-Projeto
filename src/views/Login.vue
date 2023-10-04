@@ -25,7 +25,7 @@ import LoginCriar from '@/components/LoginCriar.vue';
 
 export default {
   name: 'TheLogin',
-  comments: {
+  components: {
     LoginCriar,
   },
   data() {
@@ -44,4 +44,23 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.login {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+form {
+  display: grid;
+}
+.btn {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.perdeu {
+  text-align: center;
+  margin: 20px auto 0;
+}
+</style>
