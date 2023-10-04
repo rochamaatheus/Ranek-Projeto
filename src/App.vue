@@ -74,6 +74,9 @@ img {
   background-color: #65d;
   transform: scale(1.1);
 }
+label {
+  margin-bottom: 6px;
+}
 input,
 textarea {
   border-radius: 8px;
