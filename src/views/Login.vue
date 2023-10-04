@@ -36,7 +36,7 @@ export default {
       },
     };
   },
-  methdos: {
+  methods: {
     logar() {
       this.$store.dispatch('getUsuario', this.login.email);
     },
