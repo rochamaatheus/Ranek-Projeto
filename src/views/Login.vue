@@ -63,4 +63,8 @@ form {
   text-align: center;
   margin: 20px auto 0;
 }
+.perdeu a:hover {
+  color: #87f;
+  text-decoration: underline;
+}
 </style>
