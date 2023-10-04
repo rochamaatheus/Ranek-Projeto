@@ -20,7 +20,11 @@ export default new Vuex.Store({
     },
   },
   getters: {},
-  mutations: {},
+  mutations: {
+    UPDATE_LOGIN(state, payload) {
+      state.login = payload;
+    },
+  },
   actions: {},
   modules: {},
 });
