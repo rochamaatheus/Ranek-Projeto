@@ -50,6 +50,12 @@ export default {
   margin: 0 auto;
   padding: 0 20px;
 }
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
+  color: #87f;
+}
 form {
   display: grid;
 }
