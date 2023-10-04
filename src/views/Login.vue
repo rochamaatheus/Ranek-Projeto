@@ -21,8 +21,13 @@
 </template>
 
 <script>
+import LoginCriar from '@/components/LoginCriar.vue';
+
 export default {
   name: 'TheLogin',
+  comments: {
+    LoginCriar,
+  },
   data() {
     return {
       login: {
@@ -30,6 +35,11 @@ export default {
         password: '',
       },
     };
+  },
+  methdos: {
+    logar() {
+      console.log('Logou');
+    },
   },
 };
 </script>
