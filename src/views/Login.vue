@@ -38,7 +38,7 @@ export default {
   },
   methdos: {
     logar() {
-      console.log('Logou');
+      this.$store.dispatch('getUsuario', this.login.email);
     },
   },
 };
