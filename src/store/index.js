@@ -24,7 +24,17 @@ export default new Vuex.Store({
     UPDATE_LOGIN(state, payload) {
       state.login = payload;
     },
+    UPDATE_USUARIO(state, payload) {
+      state.usuario = payload;
+    },
   },
-  actions: {},
+  actions: {
+    getUsuario(context, payload) {
+      api.get(`/usuario/${payload}`).then((r) => {
+        context.commit('UPDATE_USUARIO', r.data);
+        context.commit('UPDATE_LOGIN', true);
+      });
+    },
+  },
   modules: {},
 });
