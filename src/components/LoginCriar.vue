@@ -1,8 +1,12 @@
 <template>
   <section>
     <h2>Crie a Sua Conta</h2>
-    <button @click="criar = true">Criar Conta</button>
-    <UsuarioForm />
+    <transition mode="out-in">
+      <button v-if="!criar" class="btn" @click="criar = true">
+        Criar Conta
+      </button>
+      <UsuarioForm v-else />
+    </transition>
   </section>
 </template>
 
@@ -14,7 +18,24 @@ export default {
   components: {
     UsuarioForm,
   },
+  data() {
+    return {
+      criar: false,
+    };
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
