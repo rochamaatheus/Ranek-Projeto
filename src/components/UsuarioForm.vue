@@ -1,23 +1,29 @@
 <template>
   <form>
     <label for="nome">Nome</label>
-    <input type="text" name="nome" id="nome" v-model="nome" />
+    <input id="nome" name="nome" type="text" v-model="nome" />
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" v-model="email" />
+    <input id="email" name="email" type="email" v-model="email" />
     <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha" v-model="senha" />
-    <label for="cep">CEP</label>
-    <input type="text" name="cep" id="cep" v-model="cep" />
+    <input id="senha" name="senha" type="password" v-model="senha" />
+    <label for="cep">Cep</label>
+    <input
+      id="cep"
+      name="cep"
+      type="text"
+      v-model="cep"
+      @keyup="preencherCep"
+    />
     <label for="rua">Rua</label>
-    <input type="text" name="rua" id="rua" v-model="rua" />
+    <input id="rua" name="rua" type="text" v-model="rua" />
     <label for="numero">Número</label>
-    <input type="text" name="numero" id="numero" v-model="numero" />
+    <input id="numero" name="numero" type="text" v-model="numero" />
     <label for="bairro">Bairro</label>
-    <input type="text" name="bairro" id="bairro" v-model="bairro" />
+    <input id="bairro" name="bairro" type="text" v-model="bairro" />
     <label for="cidade">Cidade</label>
-    <input type="text" name="cidade" id="cidade" v-model="cidade" />
+    <input id="cidade" name="cidade" type="text" v-model="cidade" />
     <label for="estado">Estado</label>
-    <input type="text" name="estado" id="estado" v-model="estado" />
+    <input id="estado" name="estado" type="text" v-model="estado" />
     <div class="button">
       <slot></slot>
     </div>
@@ -29,15 +35,14 @@ import { mapFields } from '@/helpers.js';
 import { getCep } from '@/services.js';
 
 export default {
-  name: 'UsuarioForm',
   computed: {
     ...mapFields({
       fields: [
         'nome',
         'email',
         'senha',
-        'cep',
         'rua',
+        'cep',
         'numero',
         'bairro',
         'cidade',
@@ -49,14 +54,17 @@ export default {
   },
   methods: {
     preencherCep() {
-      const cep = this.cep.replace(/\D/g, '');
-      if (cep.length == 8)
-        getCep(cep).then((r) => {
-          this.rua = r.data.logradouro;
-          this.bairro = r.data.bairro;
-          this.estado = r.data.uf;
-          this.cidade = r.data.localidade;
-        });
+      if (this.cep && typeof this.cep === 'string') {
+        const cep = this.cep.replace(/\D/g, '');
+        if (cep.length === 8) {
+          getCep(cep).then((r) => {
+            this.rua = r.data.logradouro;
+            this.bairro = r.data.bairro;
+            this.estado = r.data.uf;
+            this.cidade = r.data.localidade;
+          });
+        }
+      }
     },
   },
 };
