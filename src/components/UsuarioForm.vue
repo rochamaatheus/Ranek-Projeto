@@ -18,6 +18,9 @@
     <input type="text" name="cidade" id="cidade" v-model="cidade" />
     <label for="estado">Estado</label>
     <input type="text" name="estado" id="estado" v-model="estado" />
+    <div class="button">
+      <slot></slot>
+    </div>
   </form>
 </template>
 
