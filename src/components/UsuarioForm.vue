@@ -46,6 +46,8 @@ export default {
       base: 'usuario',
       mutation: 'UPDATE_USUARIO',
     }),
+  },
+  methods: {
     preencherCep() {
       const cep = this.cep.replace(/\D/g, '');
       if (cep.length == 8)
