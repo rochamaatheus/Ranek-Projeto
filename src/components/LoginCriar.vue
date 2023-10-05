@@ -5,7 +5,9 @@
       <button v-if="!criar" class="btn" @click="criar = true">
         Criar Conta
       </button>
-      <UsuarioForm v-else />
+      <UsuarioForm v-else>
+        <button class="btn btn-form">Criar Usuário</button>
+      </UsuarioForm>
     </transition>
   </section>
 </template>
@@ -37,5 +39,8 @@ h2 {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+.btn-form {
+  max-width: 100%;
 }
 </style>

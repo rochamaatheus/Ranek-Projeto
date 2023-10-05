@@ -49,4 +49,8 @@ form {
   grid-template-columns: 80px 1fr;
   align-items: center;
 }
+.button {
+  grid-column: 2;
+  margin-top: 10px;
+}
 </style>
