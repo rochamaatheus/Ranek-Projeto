@@ -1,11 +1,11 @@
 <template>
   <form>
-    <label for="name">Nome</label>
-    <input type="text" name="name" id="name" v-model="name" />
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" v-model="nome" />
     <label for="email">Email</label>
     <input type="email" name="email" id="email" v-model="email" />
-    <label for="password">Senha</label>
-    <input type="password" name="password" id="password" v-model="password" />
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha" v-model="senha" />
     <label for="cep">CEP</label>
     <input type="text" name="cep" id="cep" v-model="cep" />
     <label for="rua">Rua</label>
@@ -25,17 +25,26 @@
 </template>
 
 <script>
+import { mapFields } from '@/helpers.js';
+
 export default {
   name: 'UsuarioForm',
   computed: {
-    name: {
-      get() {
-        return this.$store.state.usuario.nome;
-      },
-      set(value) {
-        this.$store.commit('UPDATE_USUARIO', value);
-      },
-    },
+    ...mapFields({
+      fields: [
+        'nome',
+        'email',
+        'senha',
+        'cep',
+        'rua',
+        'numero',
+        'bairro',
+        'cidade',
+        'estado',
+      ],
+      base: 'usuario',
+      mutation: 'UPDATE_USUARIO',
+    }),
   },
 };
 </script>
