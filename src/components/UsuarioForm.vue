@@ -27,18 +27,15 @@
 <script>
 export default {
   name: 'UsuarioForm',
-  data() {
-    return {
-      name: '',
-      email: '',
-      password: '',
-      cep: '',
-      rua: '',
-      numero: '',
-      bairro: '',
-      cidade: '',
-      estado: '',
-    };
+  computed: {
+    name: {
+      get() {
+        return this.$store.state.usuario.nome;
+      },
+      set(value) {
+        this.$store.commit('UPDATE_USUARIO', value);
+      },
+    },
   },
 };
 </script>
