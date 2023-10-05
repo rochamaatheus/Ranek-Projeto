@@ -40,4 +40,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+form {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+</style>
