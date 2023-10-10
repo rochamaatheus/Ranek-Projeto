@@ -22,6 +22,18 @@
       "bairro": "Ulysses Guimarães",
       "cidade": "Joinville",
       "estado": "SC"
+    },
+    {
+      "id": "eduarda@gmail.com",
+      "nome": "Eduarda",
+      "email": "eduarda@gmail.com",
+      "senha": "123",
+      "cep": "77826-540",
+      "rua": "Rua Santa Inês",
+      "numero": "123",
+      "bairro": "Setor Raizal",
+      "cidade": "Araguaína",
+      "estado": "TO"
     }
   ],
   "produto": [
