@@ -10,7 +10,7 @@
             >Editar Usuário</router-link
           >
         </li>
-        <li><button @click.prevent="deslogar">Deslogar</button></li>
+        <li><button @click="deslogar">Deslogar</button></li>
       </ul>
     </nav>
     <transition mode="out-in">
@@ -46,15 +46,27 @@ export default {
     margin: 0 auto;
   }
 }
-.sidenav a {
+.sidenav a,
+.sidenav button {
   display: block;
   padding: 10px;
   background: #f4f7fc;
   margin-bottom: 10px;
   border-radius: 4px;
+  transition: 0.3s;
 }
-.sidenav a.router-link-exact-active {
+.sidenav a.router-link-exact-active,
+.sidenav a:hover,
+.sidenav button:hover {
   background: #87f;
   color: #fff;
+}
+.sidenav button {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 </style>
