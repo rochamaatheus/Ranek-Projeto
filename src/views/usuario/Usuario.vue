@@ -2,7 +2,7 @@
   <section class="usuario">
     <nav class="sidenav">
       <ul>
-        <li><router-link :to="{ name: 'produtos' }">Produtos</router-link></li>
+        <li><router-link :to="{ name: 'usuario' }">Produtos</router-link></li>
         <li><router-link :to="{ name: 'compras' }">Compras</router-link></li>
         <li><router-link :to="{ name: 'vendas' }">Vendas</router-link></li>
         <li>
