@@ -1,6 +1,9 @@
 <template>
   <div class="produto" v-if="produto">
-    <router-link :to="{ name: 'produto', params: { id: produto.id } }">
+    <router-link
+      class="produto_img"
+      :to="{ name: 'produto', params: { id: produto.id } }"
+    >
       <img
         v-if="produto.fotos[0]"
         :src="produto.fotos[0].src"
@@ -23,4 +26,20 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.produto {
+  display: grid;
+  grid-template-columns: minmax(100px, 200px) 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.info {
+  align-self: end;
+}
+.produto_img {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 100px;
+}
+</style>

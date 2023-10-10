@@ -48,4 +48,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  margin-bottom: 20px;
+}
+</style>
