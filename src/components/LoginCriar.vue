@@ -28,8 +28,9 @@ export default {
     };
   },
   methods: {
-    criarUsuario() {
-      this.$store.dispatch('criarUsuario', this.$store.state.usuario);
+    async criarUsuario() {
+      await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
+      await this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
     },
   },
 };
