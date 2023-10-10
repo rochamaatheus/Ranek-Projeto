@@ -8,13 +8,16 @@
         v-for="(produto, index) in usuario_produtos"
         :key="produto.id + index"
       >
-        <p>{{ produto.descricao }}</p>
+        <ProdutoItem :produto="produto">
+          <p>{{ produto.descricao }}</p>
+        </ProdutoItem>
       </li>
     </transition-group>
   </section>
 </template>
 
 <script>
+import ProdutoItem from '@/components/ProdutoItem.vue';
 import ProdutoAdicionar from '@/components/ProdutoAdicionar.vue';
 import { mapState, mapActions } from 'vuex';
 
@@ -22,6 +25,7 @@ export default {
   name: 'UsuarioProdutos',
   components: {
     ProdutoAdicionar,
+    ProdutoItem,
   },
   computed: {
     ...mapState(['login', 'usuario', 'usuario_produtos']),
