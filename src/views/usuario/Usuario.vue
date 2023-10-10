@@ -22,6 +22,12 @@
 <script>
 export default {
   name: 'TheUsuario',
+  methods: {
+    deslogar() {
+      this.$store.dispatch('deslogarUsuario');
+      this.$router.push('/login');
+    },
+  },
 };
 </script>
 
