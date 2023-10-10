@@ -31,14 +31,18 @@ export default new Vuex.Store({
       state.usuario = Object.assign(state.usuario, payload);
     },
     UPDATE_USUARIO_PRODUTOS(state, payload) {
-      state.usuario_produtos = Object.assign(state.usuario_produtos, payload);
+      state.usuario_produtos = Object.assign(
+        {},
+        state.usuario_produtos,
+        payload
+      );
     },
     ADD_USUARIO_PRODUTOS(state, payload) {
       state.usuario_produtos.unshift(payload);
     },
   },
   actions: {
-    getUsuarioProdutos(context, payload) {
+    getUsuarioProdutos(context) {
       api.get(`/produto?usuario_id=${context.state.usuario.id}`).then((r) => {
         context.commit('UPDATE_USUARIO_PRODUTOS', r.data);
       });

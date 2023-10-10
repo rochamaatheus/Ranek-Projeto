@@ -8,11 +8,30 @@
 
 <script>
 import ProdutoAdicionar from '@/components/ProdutoAdicionar.vue';
+import { mapState, mapActions } from 'vuex';
 
 export default {
   name: 'UsuarioProdutos',
   components: {
     ProdutoAdicionar,
+  },
+  computed: {
+    ...mapState(['login', 'usuario', 'usuario_produtos']),
+  },
+  methods: {
+    ...mapActions(['getUsuarioProdutos']),
+  },
+  watch: {
+    login() {
+      if (this.login) {
+        this.getUsuarioProdutos();
+      }
+    },
+  },
+  created() {
+    if (this.login) {
+      this.getUsuarioProdutos();
+    }
   },
 };
 </script>
