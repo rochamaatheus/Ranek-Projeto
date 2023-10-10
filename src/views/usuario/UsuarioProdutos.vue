@@ -3,6 +3,14 @@
     <h2>Adicionar Produto</h2>
     <ProdutoAdicionar />
     <h2>Seus Produtos</h2>
+    <transition-group v-if="usuario_produtos" name="list" tag="ul">
+      <li
+        v-for="(produto, index) in usuario_produtos"
+        :key="produto.id + index"
+      >
+        <p>{{ produto.descricao }}</p>
+      </li>
+    </transition-group>
   </section>
 </template>
 
