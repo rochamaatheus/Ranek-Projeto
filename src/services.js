@@ -8,6 +8,9 @@ export const api = {
   get(endpoint) {
     return a.get(endpoint);
   },
+  post(endpoint, body) {
+    return a.post(endpoint, body);
+  },
 };
 
 export function getCep(cep) {
