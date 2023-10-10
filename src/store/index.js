@@ -38,6 +38,7 @@ export default new Vuex.Store({
       });
     },
     criarUsuario(context, payload) {
+      context.commit('UPDATE_USUARIO', { id: payload.email });
       api.post('/usuario', payload);
     },
   },
