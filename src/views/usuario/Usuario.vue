@@ -31,4 +31,30 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.usuario {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) 1fr;
+  max-width: 900px;
+  margin: 40px auto;
+  gap: 30px;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .usuario {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+.sidenav a {
+  display: block;
+  padding: 10px;
+  background: #f4f7fc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.sidenav a.router-link-exact-active {
+  background: #87f;
+  color: #fff;
+}
+</style>
