@@ -29,8 +29,13 @@ export default {
   },
   methods: {
     async criarUsuario() {
-      await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
-      await this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
+      try {
+        await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
+        await this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
+        this.$router.push({ name: 'usuario' });
+      } catch (e) {
+        console.log(e);
+      }
     },
   },
 };
