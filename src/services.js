@@ -8,7 +8,7 @@ export const api = {
   get(endpoint) {
     return a.get(endpoint);
   },
-  post(endpoint) {
+  post(endpoint, body) {
     return a.post(endpoint, body);
   },
 };

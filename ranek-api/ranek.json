@@ -10,6 +10,18 @@
       "numero": "368",
       "estado": "SC",
       "cidade": "Joinville"
+    },
+    {
+      "id": "maria@origamid.com",
+      "nome": "Maria das Neves",
+      "email": "maria@origamid.com",
+      "senha": "123",
+      "cep": "89230654",
+      "rua": "Rua Cidade de Medianeira",
+      "numero": "123",
+      "bairro": "Ulysses Guimarães",
+      "cidade": "Joinville",
+      "estado": "SC"
     }
   ],
   "produto": [
