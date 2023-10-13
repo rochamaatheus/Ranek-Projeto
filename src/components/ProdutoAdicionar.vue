@@ -22,6 +22,8 @@
 </template>
 
 <script>
+import { api } from '@/services';
+
 export default {
   name: 'ProdutoAdicionar',
   data() {
@@ -29,10 +31,17 @@ export default {
       produto: {
         nome: '',
         preco: '',
-        fotos: '',
         descricao: '',
+        fotos: null,
       },
     };
+  },
+  methods: {
+    adicionarProduto() {
+      api
+        .post('/produto', this.produto)
+        .then(() => this.$store.dispatch('getUsuarioProdutos'));
+    },
   },
 };
 </script>
