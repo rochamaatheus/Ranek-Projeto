@@ -50,4 +50,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.adicionar-produto {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.btn {
+  grid-column: 2;
+}
+</style>
