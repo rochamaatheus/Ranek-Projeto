@@ -1,7 +1,7 @@
 <template>
   <section>
     <div v-if="produto" class="produto">
-      <ul class="fotos" v-if="produto.fotos[0]">
+      <ul class="fotos" v-if="produto.fotos && produto.fotos[0]">
         <li v-for="(foto, index) in produto.fotos" :key="index">
           <img :src="foto.src" :alt="foto.titulo" />
         </li>

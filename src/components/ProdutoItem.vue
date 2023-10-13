@@ -5,7 +5,7 @@
       :to="{ name: 'produto', params: { id: produto.id } }"
     >
       <img
-        v-if="produto.fotos[0]"
+        v-if="produto.fotos && produto.fotos[0]"
         :src="produto.fotos[0].src"
         :alt="produto.fotos[0].titulo"
       />

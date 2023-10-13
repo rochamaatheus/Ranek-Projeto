@@ -31,11 +31,7 @@ export default new Vuex.Store({
       state.usuario = Object.assign(state.usuario, payload);
     },
     UPDATE_USUARIO_PRODUTOS(state, payload) {
-      state.usuario_produtos = Object.assign(
-        {},
-        state.usuario_produtos,
-        payload
-      );
+      state.usuario_produtos = payload;
     },
     ADD_USUARIO_PRODUTOS(state, payload) {
       state.usuario_produtos.unshift(payload);
