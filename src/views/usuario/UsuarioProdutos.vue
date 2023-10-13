@@ -10,6 +10,9 @@
       >
         <ProdutoItem :produto="produto">
           <p>{{ produto.descricao }}</p>
+          <button class="deletar" @click="deletarProduto(produto.id)">
+            Deletar
+          </button>
         </ProdutoItem>
       </li>
     </transition-group>
@@ -20,6 +23,7 @@
 import ProdutoItem from '@/components/ProdutoItem.vue';
 import ProdutoAdicionar from '@/components/ProdutoAdicionar.vue';
 import { mapState, mapActions } from 'vuex';
+import { api } from '@/services';
 
 export default {
   name: 'UsuarioProdutos',
@@ -32,6 +36,14 @@ export default {
   },
   methods: {
     ...mapActions(['getUsuarioProdutos']),
+    deletarProduto(id) {
+      const confirm = window.confirm('Desejar remover este produto?');
+      if (confirm)
+        api
+          .delete(`/produto/${id}`)
+          .then(() => this.getUsuarioProdutos())
+          .catch((err) => console.log(err));
+    },
   },
   watch: {
     login() {
@@ -51,6 +63,18 @@ export default {
 <style scoped>
 h2 {
   margin-bottom: 20px;
+}
+.deletar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url('../../assets/remove.svg') no-repeat center center;
+  width: 24px;
+  height: 24px;
+  text-indent: -140px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
 }
 .list-enter,
 .list-leave-to {
