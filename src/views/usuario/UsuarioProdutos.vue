@@ -36,8 +36,8 @@ export default {
   },
   methods: {
     ...mapActions(['getUsuarioProdutos']),
-    deletar() {
-      const confirm = confirm('Desejar remover este produto?');
+    deletarProduto(id) {
+      const confirm = window.confirm('Desejar remover este produto?');
       if (confirm)
         api
           .delete(`/produto/${id}`)
@@ -63,6 +63,18 @@ export default {
 <style scoped>
 h2 {
   margin-bottom: 20px;
+}
+.deletar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url('../../assets/remove.svg') no-repeat center center;
+  width: 24px;
+  height: 24px;
+  text-indent: -140px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
 }
 .list-enter,
 .list-leave-to {
