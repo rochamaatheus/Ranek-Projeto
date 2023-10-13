@@ -22,18 +22,6 @@
       "bairro": "Ulysses Guimarães",
       "cidade": "Joinville",
       "estado": "SC"
-    },
-    {
-      "id": "eduarda@gmail.com",
-      "nome": "Eduarda",
-      "email": "eduarda@gmail.com",
-      "senha": "123",
-      "cep": "77826-540",
-      "rua": "Rua Santa Inês",
-      "numero": "123",
-      "bairro": "Setor Raizal",
-      "cidade": "Araguaína",
-      "estado": "TO"
     }
   ],
   "produto": [
@@ -44,7 +32,7 @@
       "preco": "999",
       "vendido": "false",
       "descricao": "Notebook de última geração",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "smartphone",
@@ -53,7 +41,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Smartphone de última geração",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "tablet",
@@ -62,7 +50,7 @@
       "preco": "599",
       "vendido": "false",
       "descricao": "Tablet de última geração",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "monitor",
@@ -71,7 +59,7 @@
       "preco": "799",
       "vendido": "false",
       "descricao": "Monitor LED de 24 polegadas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "teclado",
@@ -80,7 +68,7 @@
       "preco": "99",
       "vendido": "false",
       "descricao": "Teclado mecânico para jogos",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "mouse",
@@ -89,7 +77,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Mouse óptico sem fio",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "headset",
@@ -98,7 +86,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Headset gamer com som surround",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "câmera",
@@ -107,7 +95,7 @@
       "preco": "599",
       "vendido": "false",
       "descricao": "Câmera digital de 20MP",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "impressora",
@@ -116,7 +104,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Impressora a jato de tinta",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "rotaer",
@@ -125,7 +113,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Roteador Wi-Fi de alta velocidade",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "guitarra",
@@ -134,7 +122,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Guitarra elétrica com amplificador",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira",
@@ -143,7 +131,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Cadeira ergonômica com apoio para as costas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "tv",
@@ -152,7 +140,7 @@
       "preco": "799",
       "vendido": "false",
       "descricao": "TV 4K de 55 polegadas com Smart TV integrada",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "fogao",
@@ -161,7 +149,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Fogão a gás com quatro bocas e forno elétrico",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cafeteira",
@@ -170,7 +158,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Cafeteira elétrica para até 12 xícaras",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "bicicleta",
@@ -179,7 +167,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Bicicleta de montanha com suspensão dianteira",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "máquina_lavar",
@@ -188,7 +176,7 @@
       "preco": "699",
       "vendido": "false",
       "descricao": "Máquina de lavar roupa de carga frontal",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "microondas",
@@ -197,7 +185,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Micro-ondas de 20 litros com função grill",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "geladeira",
@@ -206,7 +194,7 @@
       "preco": "899",
       "vendido": "false",
       "descricao": "Geladeira Frost Free de 300 litros",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "mesa_escritorio",
@@ -215,7 +203,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Mesa de escritório em madeira com gavetas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_escritorio",
@@ -224,7 +212,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Cadeira de escritório ergonômica com encosto de cabeça",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "computador",
@@ -233,7 +221,7 @@
       "preco": "999",
       "vendido": "false",
       "descricao": "Computador desktop de alta performance",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "impressora_escritorio",
@@ -242,7 +230,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Impressora a laser para uso em escritório",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "luminaria",
@@ -251,7 +239,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Luminária de mesa LED com ajuste de intensidade",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "armario_escritorio",
@@ -260,7 +248,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Armário de escritório com prateleiras",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "calculadora",
@@ -269,7 +257,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Calculadora científica com funções avançadas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "pasta_executiva",
@@ -278,7 +266,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Pasta executiva de couro com compartimentos",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_som",
@@ -287,7 +275,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Caixa de som Bluetooth portátil",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_gamer",
@@ -296,7 +284,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Cadeira gamer ergonômica com suporte lombar",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "aspirador_po",
@@ -305,7 +293,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Aspirador de pó sem fio com filtro HEPA",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "bicicleta_electrica",
@@ -314,7 +302,7 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Bicicleta elétrica com motor de 250W",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "liquidificador",
@@ -323,7 +311,7 @@
       "preco": "59",
       "vendido": "false",
       "descricao": "Liquidificador com jarra de vidro",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "grill",
@@ -332,7 +320,7 @@
       "preco": "89",
       "vendido": "false",
       "descricao": "Grill elétrico com chapa antiaderente",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ventilador",
@@ -341,7 +329,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Ventilador de teto com controle remoto",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cafeteira_espresso",
@@ -350,7 +338,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Cafeteira espresso com moedor integrado",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ferro_passar",
@@ -359,7 +347,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Ferro de passar a vapor com base antiaderente",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "panela_pressao",
@@ -368,7 +356,7 @@
       "preco": "69",
       "vendido": "false",
       "descricao": "Panela de pressão em aço inoxidável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_ferramentas",
@@ -377,7 +365,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Caixa de ferramentas com várias peças",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "microfone",
@@ -386,7 +374,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Microfone condensador para gravações",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_praia",
@@ -395,7 +383,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Cadeira de praia dobrável com porta-copos",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "mala_viagem",
@@ -404,7 +392,7 @@
       "preco": "89",
       "vendido": "false",
       "descricao": "Mala de viagem com rodinhas e alça retrátil",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cafeteira_capsulas",
@@ -413,7 +401,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Cafeteira de cápsulas com opção de bebidas quentes",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "churrasqueira_eletrica",
@@ -422,7 +410,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Churrasqueira elétrica para uso interno",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ferro_passar_vapor",
@@ -431,7 +419,7 @@
       "preco": "59",
       "vendido": "false",
       "descricao": "Ferro de passar a vapor com controle de temperatura",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_piscina",
@@ -440,7 +428,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Cadeira de piscina reclinável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ventilador_portatil",
@@ -449,7 +437,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Ventilador portátil recarregável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "frigobar",
@@ -458,7 +446,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Frigobar com capacidade de 80 litros",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "radio_portatil",
@@ -467,7 +455,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Rádio portátil AM/FM com entrada para cartão SD",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "espremedor_suco",
@@ -476,7 +464,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Espremedor de suco elétrico",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "forno_eletrico",
@@ -485,7 +473,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Forno elétrico com capacidade de 30 litros",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_ferramentas_profissional",
@@ -494,7 +482,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Caixa de ferramentas profissional com 200 peças",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "abajur",
@@ -503,7 +491,7 @@
       "preco": "19",
       "vendido": "false",
       "descricao": "Abajur de mesa com cúpula de tecido",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "escova_dental_eletrica",
@@ -512,7 +500,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Escova dental elétrica recarregável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "aquecedor",
@@ -521,7 +509,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Aquecedor elétrico portátil",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "carrinho_bebe",
@@ -530,7 +518,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Carrinho de bebê com assento reclinável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "escada_aluminio",
@@ -539,7 +527,7 @@
       "preco": "69",
       "vendido": "false",
       "descricao": "Escada de alumínio dobrável com 4 degraus",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "banheira_bebe",
@@ -548,7 +536,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Banheira para bebê com suporte",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cama_casal",
@@ -557,7 +545,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Cama de casal com estrado de madeira",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "liquidificador_industrial",
@@ -566,7 +554,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Liquidificador industrial de alta capacidade",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "banqueta_bar",
@@ -575,7 +563,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Banqueta para bar com ajuste de altura",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "notebook_gamer",
@@ -584,7 +572,7 @@
       "preco": "1499",
       "vendido": "false",
       "descricao": "Notebook gamer de alta performance",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "bicicleta_estatica",
@@ -593,7 +581,7 @@
       "preco": "249",
       "vendido": "false",
       "descricao": "Bicicleta estática para exercícios em casa",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_balanco",
@@ -602,7 +590,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Cadeira de balanço com almofada",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_joias",
@@ -611,7 +599,7 @@
       "preco": "19",
       "vendido": "false",
       "descricao": "Caixa de joias em veludo",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "teclado_piano",
@@ -620,7 +608,7 @@
       "preco": "499",
       "vendido": "false",
       "descricao": "Teclado de piano digital com 88 teclas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_crianca",
@@ -629,7 +617,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Cadeira infantil com cinto de segurança",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "aparelho_sonar",
@@ -638,7 +626,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Aparelho de sonar para pescaria",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "skate",
@@ -647,7 +635,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Skate completo para manobras",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "maquina_costura",
@@ -656,7 +644,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Máquina de costura elétrica",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "batedeira",
@@ -665,7 +653,7 @@
       "preco": "69",
       "vendido": "false",
       "descricao": "Batedeira elétrica com tigela",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "patins",
@@ -674,7 +662,7 @@
       "preco": "59",
       "vendido": "false",
       "descricao": "Patins ajustável para adultos",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "guitarra_acustica",
@@ -683,7 +671,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Guitarra acústica com tampo de madeira sólida",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "kit_ferramentas",
@@ -692,7 +680,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Kit de ferramentas com diversas peças",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cooler",
@@ -701,7 +689,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Cooler térmico para bebidas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "escrivaninha",
@@ -710,7 +698,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Escrivaninha em MDF com gavetas",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "microfone_karaoke",
@@ -719,7 +707,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Microfone para karaokê com efeitos de voz",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "carrinho_mao",
@@ -728,7 +716,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Carrinho de mão resistente com pneus infláveis",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_praia_inclinavel",
@@ -737,7 +725,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Cadeira de praia reclinável com porta-copos",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cafeteira_capsulas",
@@ -746,7 +734,7 @@
       "preco": "149",
       "vendido": "false",
       "descricao": "Cafeteira de cápsulas com opção de bebidas quentes",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "churrasqueira_eletrica",
@@ -755,7 +743,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Churrasqueira elétrica para uso interno",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ferro_passar_vapor",
@@ -764,7 +752,7 @@
       "preco": "59",
       "vendido": "false",
       "descricao": "Ferro de passar a vapor com controle de temperatura",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cadeira_piscina",
@@ -773,7 +761,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Cadeira de piscina reclinável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "ventilador_portatil",
@@ -782,7 +770,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Ventilador portátil recarregável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "frigobar",
@@ -791,7 +779,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Frigobar com capacidade de 80 litros",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "radio_portatil",
@@ -800,7 +788,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Rádio portátil AM/FM com entrada para cartão SD",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "espremedor_suco",
@@ -809,7 +797,7 @@
       "preco": "39",
       "vendido": "false",
       "descricao": "Espremedor de suco elétrico",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "forno_eletrico",
@@ -818,7 +806,7 @@
       "preco": "129",
       "vendido": "false",
       "descricao": "Forno elétrico com capacidade de 30 litros",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_ferramentas_profissional",
@@ -827,7 +815,7 @@
       "preco": "299",
       "vendido": "false",
       "descricao": "Caixa de ferramentas profissional com 200 peças",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "abajur",
@@ -836,7 +824,7 @@
       "preco": "19",
       "vendido": "false",
       "descricao": "Abajur de mesa com cúpula de tecido",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "escova_dental_eletrica",
@@ -845,7 +833,7 @@
       "preco": "29",
       "vendido": "false",
       "descricao": "Escova dental elétrica recarregável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "aquecedor",
@@ -854,7 +842,7 @@
       "preco": "79",
       "vendido": "false",
       "descricao": "Aquecedor elétrico portátil",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "carrinho_bebe",
@@ -863,7 +851,7 @@
       "preco": "199",
       "vendido": "false",
       "descricao": "Carrinho de bebê com assento reclinável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "escada_aluminio",
@@ -872,7 +860,7 @@
       "preco": "69",
       "vendido": "false",
       "descricao": "Escada de alumínio dobrável com 4 degraus",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "banheira_bebe",
@@ -881,7 +869,7 @@
       "preco": "49",
       "vendido": "false",
       "descricao": "Banheira para bebê com suporte",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "cama_casal",
@@ -890,7 +878,7 @@
       "preco": "399",
       "vendido": "false",
       "descricao": "Cama de casal com estrado de madeira",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "caixa_som_portatil",
@@ -899,7 +887,7 @@
       "preco": "99",
       "vendido": "false",
       "descricao": "Caixa de som portátil Bluetooth",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "carrinho_compras",
@@ -908,7 +896,7 @@
       "preco": "59",
       "vendido": "false",
       "descricao": "Carrinho de compras dobrável",
-      "fotos": []
+      "fotos": null
     },
     {
       "id": "teclado_numerico",
@@ -917,7 +905,15 @@
       "preco": "19",
       "vendido": "false",
       "descricao": "Teclado numérico USB",
-      "fotos": []
+      "fotos": null
+    },
+    {
+      "nome": "Celular A32",
+      "preco": "120",
+      "descricao": "123",
+      "fotos": null,
+      "usuario_id": "maria@origamid.com",
+      "id": "Kz-0mf2"
     }
   ]
 }
