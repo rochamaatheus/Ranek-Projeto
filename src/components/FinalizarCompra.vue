@@ -61,4 +61,12 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #e80;
+}
+</style>
