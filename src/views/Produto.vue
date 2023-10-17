@@ -21,6 +21,7 @@
 
 <script>
 import PageLoading from '@/components/PageLoading.vue';
+import FinalizarCompra from '@/components/FinalizarCompra.vue';
 import { api } from '@/services.js';
 
 export default {
@@ -39,7 +40,7 @@ export default {
   created() {
     this.getProduto();
   },
-  components: { PageLoading },
+  components: { PageLoading, FinalizarCompra },
 };
 </script>
 
