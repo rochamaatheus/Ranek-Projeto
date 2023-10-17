@@ -25,10 +25,10 @@ export default {
           this.$store.state.usuario
         )
         .then(() => {
-          this.$store.dispatch('getUsuario');
+          this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
           this.$router.push({ name: 'usuario' });
         })
-        .catch((err) => console.log(err.response));
+        .catch((err) => console.log(err));
     },
   },
 };
