@@ -57,4 +57,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  margin-bottom: 20px;
+}
+.produtos-wrapper {
+  margin-bottom: 40px;
+}
+.vendedor span {
+  color: #e80;
+}
+</style>
