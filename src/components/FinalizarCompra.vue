@@ -20,10 +20,22 @@ export default {
   props: ['produto'],
   methods: {
     finalizarCompra() {
+      if (this.$store.state.login) this.criarTransacao();
+      else this.criarUsuario();
+
       this.criarTransacao();
     },
+    async criarUsuario() {
+      try {
+        await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
+        await this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
+        await this.criarTransacao();
+      } catch (e) {
+        console.log(e);
+      }
+    },
     criarTransacao() {
-      api.post('/transacao', this.compra).then(() => {
+      return api.post('/transacao', this.compra).then(() => {
         this.$router.push({ name: 'compras' });
       });
     },
