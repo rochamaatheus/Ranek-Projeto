@@ -76,10 +76,14 @@ export default {
 </script>
 
 <style scoped>
-form {
+form,
+.usuario {
   display: grid;
   grid-template-columns: 80px 1fr;
   align-items: center;
+}
+.usuario {
+  grid-column: 1 / -1;
 }
 .button {
   grid-column: 2;
