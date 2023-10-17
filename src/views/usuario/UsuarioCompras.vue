@@ -23,7 +23,7 @@ import { mapState } from 'vuex';
 import { api } from '@/services.js';
 
 export default {
-  name: 'UsuarioProdutos',
+  name: 'UsuarioCompras',
   data() {
     return {
       compras: null,
