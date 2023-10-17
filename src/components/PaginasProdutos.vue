@@ -54,6 +54,7 @@ export default {
 <style scoped>
 ul {
   grid-column: 1 / -1;
+  text-align: center;
 }
 
 li {
