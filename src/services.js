@@ -11,6 +11,9 @@ export const api = {
   post(endpoint, body) {
     return a.post(endpoint, body);
   },
+  put(endpoint, body) {
+    return a.put(endpoint, body);
+  },
   delete(endpoint) {
     return a.delete(endpoint);
   },

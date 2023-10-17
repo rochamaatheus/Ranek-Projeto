@@ -2,24 +2,13 @@
   "usuario": [
     {
       "id": "matheus@gmail.com",
+      "nome": "Matheus Rocha",
       "email": "matheus@gmail.com",
-      "nome": "Matheus",
       "senha": "123",
-      "rua": "Rua Virando a Esquina",
       "cep": "12345678",
+      "rua": "Rua Ali Perto",
       "numero": "368",
-      "estado": "SC",
-      "cidade": "Joinville"
-    },
-    {
-      "id": "maria@origamid.com",
-      "nome": "Maria das Neves",
-      "email": "maria@origamid.com",
-      "senha": "123",
-      "cep": "89230654",
-      "rua": "Rua Cidade de Medianeira",
-      "numero": "123",
-      "bairro": "Ulysses Guimarães",
+      "bairro": "Esse bairro",
       "cidade": "Joinville",
       "estado": "SC"
     }
