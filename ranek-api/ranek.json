@@ -1,5 +1,28 @@
 {
-  "transacao": [],
+  "transacao": [
+    {
+      "comprador_id": "teste@gmail.com",
+      "vendedor_id": "matheus@gmail.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "matheus@gmail.com",
+        "preco": "999",
+        "vendido": "false",
+        "descricao": "Notebook de última geração",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "71995355",
+        "rua": "SHA Conjunto 5 Chácara 95A",
+        "numero": "321",
+        "bairro": "Setor Habitacional Arniqueira (Águas Claras)",
+        "cidade": "Brasília",
+        "estado": "DF"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "matheus@gmail.com",
@@ -12,6 +35,18 @@
       "bairro": "Esse bairro",
       "cidade": "Joinville",
       "estado": "SC"
+    },
+    {
+      "id": "teste@gmail.com",
+      "nome": "teste",
+      "email": "teste@gmail.com",
+      "senha": "123",
+      "cep": "71995355",
+      "rua": "SHA Conjunto 5 Chácara 95A",
+      "numero": "321",
+      "bairro": "Setor Habitacional Arniqueira (Águas Claras)",
+      "cidade": "Brasília",
+      "estado": "DF"
     }
   ],
   "produto": [

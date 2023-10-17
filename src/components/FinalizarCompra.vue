@@ -22,8 +22,6 @@ export default {
     finalizarCompra() {
       if (this.$store.state.login) this.criarTransacao();
       else this.criarUsuario();
-
-      this.criarTransacao();
     },
     async criarUsuario() {
       try {
