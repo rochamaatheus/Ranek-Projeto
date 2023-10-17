@@ -2,7 +2,7 @@
   <section>
     <h2>Endereço de Envio</h2>
     <UsuarioForm>
-      <button class="btn" @click.prevent="atualizarCompra">
+      <button class="btn" @click.prevent="finalizarCompra">
         Finalizar Compra
       </button>
     </UsuarioForm>
@@ -19,8 +19,13 @@ export default {
   components: { UsuarioForm },
   props: ['produto'],
   methods: {
-    atualizarCompra() {
-      alert('Comprou');
+    finalizarCompra() {
+      this.criarTransacao();
+    },
+    criarTransacao() {
+      api.post('/transacao', this.compra).then(() => {
+        this.$router.push({ name: 'compras' });
+      });
     },
   },
   computed: {
