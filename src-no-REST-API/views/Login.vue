@@ -38,15 +38,8 @@ export default {
   },
   methods: {
     logar() {
-      this.$store
-        .dispatch('logarUsuario', {
-          username: this.login.email,
-          password: this.login.password,
-        })
-        .then(() => {
-          this.$store.dispatch('getUsuario');
-          this.$router.push({ name: 'usuario' });
-        });
+      this.$store.dispatch('getUsuario', this.login.email);
+      this.$router.push({ name: 'usuario' });
     },
   },
 };
