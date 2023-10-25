@@ -43,9 +43,9 @@ export default {
           username: this.login.email,
           password: this.login.password,
         })
-        .then((r) => {
-          //this.$store.dispatch('getUsuario');
-          //this.$router.push({ name: 'usuario' });
+        .then(() => {
+          this.$store.dispatch('getUsuario');
+          this.$router.push({ name: 'usuario' });
         });
     },
   },
