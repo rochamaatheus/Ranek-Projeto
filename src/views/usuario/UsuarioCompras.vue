@@ -34,9 +34,7 @@ export default {
   },
   methods: {
     getCompras() {
-      api
-        .get(`/transacao?comprador_id=${this.usuario.id}`)
-        .then((r) => (this.compras = r.data));
+      api.get(`/transacao`).then((r) => (this.compras = r.data));
     },
   },
   watch: {
