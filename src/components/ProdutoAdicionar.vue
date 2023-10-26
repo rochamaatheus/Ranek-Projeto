@@ -51,6 +51,8 @@ export default {
       form.append('descricao', this.produto.descricao);
       form.append('vendido', this.produto.vendido);
       form.append('usuario_id', this.$store.state.usuario.id);
+
+      return form;
     },
     adicionarProduto() {
       const produto = this.formatarProduto();
