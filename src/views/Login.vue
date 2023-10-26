@@ -9,7 +9,7 @@
         type="password"
         name="password"
         id="password"
-        v-model="login.password"
+        v-model="login.senha"
       />
       <button class="btn" @click.prevent="logar">Logar</button>
     </form>
@@ -32,21 +32,16 @@ export default {
     return {
       login: {
         email: '',
-        password: '',
+        senha: '',
       },
     };
   },
   methods: {
     logar() {
-      this.$store
-        .dispatch('logarUsuario', {
-          username: this.login.email,
-          password: this.login.password,
-        })
-        .then(() => {
-          this.$store.dispatch('getUsuario');
-          this.$router.push({ name: 'usuario' });
-        });
+      this.$store.dispatch('logarUsuario', this.login).then(() => {
+        this.$store.dispatch('getUsuario');
+        this.$router.push({ name: 'usuario' });
+      });
     },
   },
 };

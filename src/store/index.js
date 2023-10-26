@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import { api } from '@/services.js';
-
 Vue.use(Vuex);
 
 export default new Vuex.Store({
@@ -22,7 +21,6 @@ export default new Vuex.Store({
     },
     usuario_produtos: null,
   },
-  getters: {},
   mutations: {
     UPDATE_LOGIN(state, payload) {
       state.login = payload;
@@ -34,7 +32,7 @@ export default new Vuex.Store({
       state.usuario_produtos = payload;
     },
     ADD_USUARIO_PRODUTOS(state, payload) {
-      state.usuario_produtos.unshift(payload);
+      state.usuario_produtos.unshit(payload);
     },
   },
   actions: {
@@ -54,9 +52,14 @@ export default new Vuex.Store({
       return api.post('/usuario', payload);
     },
     logarUsuario(context, payload) {
-      return api.login(payload).then((r) => {
-        window.localStorage.token = `Bearer ${r.data.token}`;
-      });
+      return api
+        .login({
+          username: payload.email,
+          password: payload.senha,
+        })
+        .then((r) => {
+          window.localStorage.token = `Bearer ${r.data.token}`;
+        });
     },
     deslogarUsuario(context) {
       context.commit('UPDATE_USUARIO', {
@@ -75,5 +78,4 @@ export default new Vuex.Store({
       context.commit('UPDATE_LOGIN', false);
     },
   },
-  modules: {},
 });
