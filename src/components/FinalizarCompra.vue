@@ -26,7 +26,7 @@ export default {
     async criarUsuario() {
       try {
         await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
-        await this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
+        await this.$store.dispatch('getUsuario');
         await this.criarTransacao();
       } catch (e) {
         console.log(e);
