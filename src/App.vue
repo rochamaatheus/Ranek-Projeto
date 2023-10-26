@@ -83,6 +83,11 @@ img {
   background-color: #65d;
   transform: scale(1.1);
 }
+.btn-disabled,
+.btn-disabled:hover {
+  background-color: #bbc;
+  transform: scale(1);
+}
 label {
   margin-bottom: 6px;
 }
