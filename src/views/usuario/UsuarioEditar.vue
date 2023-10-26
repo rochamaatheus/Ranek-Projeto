@@ -5,27 +5,36 @@
         Atualizar Usuário
       </button>
     </UsuarioForm>
+    <ErrorNotificacao :erros="erros" />
   </section>
 </template>
 
 <script>
+import ErrorNotificacao from '@/components/ErrorNotificacao.vue';
 import UsuarioForm from '@/components/UsuarioForm.vue';
 import { api } from '@/services.js';
 
 export default {
   name: 'UsuarioEditar',
+  data() {
+    return {
+      erros: [],
+    };
+  },
   components: {
     UsuarioForm,
+    ErrorNotificacao,
   },
   methods: {
     atualizarUsuario() {
+      this.erros = [];
       api
         .put(`/usuario`, this.$store.state.usuario)
         .then(() => {
           this.$store.dispatch('getUsuario', this.$store.state.usuario.id);
           this.$router.push({ name: 'usuario' });
         })
-        .catch((err) => console.log(err));
+        .catch((e) => this.erros.push(e.response.data.message));
     },
   },
 };
