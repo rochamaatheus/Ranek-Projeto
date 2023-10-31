@@ -76,7 +76,6 @@ router.beforeEach((to, from, next) => {
       next();
     }
   } else {
-    console.log('Não precisa de verificação');
     next();
   }
 });
