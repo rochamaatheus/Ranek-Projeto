@@ -25,6 +25,9 @@ export default {
     UsuarioForm,
     ErrorNotificacao,
   },
+  created() {
+    document.title = 'Usuário | Editar';
+  },
   methods: {
     atualizarUsuario() {
       this.erros = [];

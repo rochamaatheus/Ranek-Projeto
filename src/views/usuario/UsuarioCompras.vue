@@ -48,6 +48,7 @@ export default {
     if (this.login) {
       this.getCompras();
     }
+    document.title = 'Usuário | Compras';
   },
   components: {
     ProdutoItem,
