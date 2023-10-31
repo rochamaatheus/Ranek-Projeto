@@ -14,6 +14,10 @@ Vue.use(VueRouter);
 
 const routes = [
   {
+    path: '*',
+    component: PaginaNaoEncontrada,
+  },
+  {
     path: '/',
     name: 'home',
     component: Home,
@@ -36,10 +40,6 @@ const routes = [
       login: true,
     },
     children: [
-      {
-        path: '*',
-        component: PaginaNaoEncontrada,
-      },
       {
         path: '',
         name: 'usuario',
