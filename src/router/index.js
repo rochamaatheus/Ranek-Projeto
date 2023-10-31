@@ -8,6 +8,7 @@ import UsuarioProdutos from '@/views/usuario/UsuarioProdutos.vue';
 import UsuarioVendas from '@/views/usuario/UsuarioVendas.vue';
 import UsuarioEditar from '@/views/usuario/UsuarioEditar.vue';
 import UsuarioCompras from '@/views/usuario/UsuarioCompras.vue';
+import PaginaNaoEncontrada from '@/views/PaginaNaoEncontrada.vue';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,10 @@ const routes = [
       login: true,
     },
     children: [
+      {
+        path: '*',
+        component: PaginaNaoEncontrada,
+      },
       {
         path: '',
         name: 'usuario',
